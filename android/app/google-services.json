@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "896412983108",
+    "project_id": "do-daily-54838",
+    "storage_bucket": "do-daily-54838.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896412983108:android:5ebf6dfebd7f447d298111",
+        "android_client_info": {
+          "package_name": "com.example.do_daily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896412983108-j806b56igegv0tcvgg6cu013tgtk787u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLBcqNDQAi3jPhErSGR0BEDn84GRgBocc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896412983108-j806b56igegv0tcvgg6cu013tgtk787u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
