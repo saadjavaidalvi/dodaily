@@ -3,7 +3,6 @@ import 'package:do_daily/config/custom_fonts.dart';
 import 'package:do_daily/const_colors.dart';
 import 'package:do_daily/widgets/custom_margin.dart';
 import 'package:do_daily/widgets/custom_navigator.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_kit/responsive_kit.dart';
 
@@ -40,7 +39,10 @@ class _CreateNewTaskScreenState extends State<CreateNewTaskScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   IconButton(
-                    icon: const Icon(Icons.arrow_back_ios),
+                    icon: Icon(
+                      Icons.arrow_back_ios,
+                      color: ConstColors().secondary,
+                    ),
                     onPressed: () {
                       Nav.pop(context);
                     },
@@ -125,10 +127,12 @@ class _CreateNewTaskScreenState extends State<CreateNewTaskScreen> {
                               .bold16
                               .copyWith(fontWeight: FontWeight.normal),
                           decoration: InputDecoration(
-                            border: InputBorder.none,
-                            fillColor: ConstColors().secondary.withOpacity(.10),
-                            hintText: 'Enter Task Name',
-                          ),
+                              border: InputBorder.none,
+                              hintText: 'Enter Task Name',
+                              hintStyle: CustomTextStyle().bold16.copyWith(
+                                  fontWeight: FontWeight.normal,
+                                  color:
+                                      ConstColors().secondary.withOpacity(.5))),
                         ),
                       ),
                     ),

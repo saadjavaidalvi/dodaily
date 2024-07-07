@@ -1,5 +1,3 @@
-import 'dart:ui';
-import 'package:do_daily/config/asset_strings.dart';
 import 'package:do_daily/config/custom_fonts.dart';
 import 'package:do_daily/const_colors.dart';
 import 'package:do_daily/widgets/custom_margin.dart';
